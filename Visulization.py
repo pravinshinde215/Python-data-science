@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 data = pd.read_excel("sample-data-10mins.xlsx")
 # print(data.head())
+# good
 print(data["Product"], data["Boxes Shipped"], data["Date"])
 plt.bar(data["Product"], data["Boxes Shipped"] )
 plt.xlabel("Product")
